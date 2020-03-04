@@ -71,6 +71,6 @@ Mais detalhe sobre, você encontra na documentação oficial da [Microsoft](http
 
 ### Documentação
 
-Será necessário criar markdown expicando como execultar o seu projeto em nossa máquina, como ser executado, porta que deve ser configurado e etc, seguiremos seu tutorial para rodar e testar sua aplicação. Inclua também nessa documentação bibliotecas utilizadas, versão dos framework utilizado e etc.
+Será necessário criar markdown explicando como execultar o seu projeto em nossa máquina, como ser executado, porta que deve ser configurado e etc, seguiremos seu tutorial para rodar e testar sua aplicação. Inclua também nessa documentação bibliotecas utilizadas, versão dos framework utilizado e etc.
 
 Para ajudar a criar um markdown recomendo ser utilizar [Dillinger](https://dillinger.io/)
