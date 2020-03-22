@@ -11,10 +11,10 @@ namespace ImagineBeyond.Application.Customer.Interfaces
 
          Task UpdateCostumer(CustomerViewModel costumerViewModel);
 
-         Task DeleteCostumer(Guid id);
+         Task DeleteCostumer(int id);
 
          Task<IEnumerable<CustomerViewModel>> Get();
 
-         Task<CustomerViewModel> GetById(Guid id);
+         Task<CustomerViewModel> GetById(int id);
     }
 }

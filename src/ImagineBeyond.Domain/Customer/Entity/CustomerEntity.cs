@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ImagineBeyond.Customer.Entity
 {
@@ -6,7 +7,7 @@ namespace ImagineBeyond.Customer.Entity
     {
         public CustomerEntity(string firstName, string lastName, string email)
         {
-            this.Id = Guid.NewGuid();
+            //this.Id = int.NewGuid();
             this.FirstName = firstName;
             this.LastName = lastName;
             this.Email = email;
@@ -14,7 +15,8 @@ namespace ImagineBeyond.Customer.Entity
             this.DateLastUpdate = null;
         }
 
-        public Guid Id { get; private set; }
+        [Key]
+        public int Id { get; private set; }
 
         public string FirstName { get; private set; }
 

@@ -4,7 +4,7 @@ namespace ImagineBeyond.Application.Customer.ViewModel
 {
     public class CustomerViewModel
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public string FirstName { get; set; }
 

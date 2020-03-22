@@ -7,14 +7,14 @@ namespace ImagineBeyond.Domain.Interfaces.Repositories
 {
     public interface ICustomerRepository
     {
-        Task Create(CustomerEntity customer);
+        Task Create(Customer.Entity.CustomerEntity customer);
 
-        Task Update(CustomerEntity customer);
+        Task Update(Customer.Entity.CustomerEntity customer);
 
-        Task Delete(CustomerEntity customer);
+        Task Delete(Customer.Entity.CustomerEntity customer);
 
-        Task<IEnumerable<CustomerEntity>> Get();
+        Task<IEnumerable<Customer.Entity.CustomerEntity>> Get();
 
-        Task<CustomerEntity> GetById(Guid id);
+        Task<Customer.Entity.CustomerEntity> GetById(int id);
     }
 }
